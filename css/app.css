@@ -1,8 +1,34 @@
-input[type=range][orient=vertical]
-{
-    writing-mode: bt-lr; /* IE */
-    -webkit-appearance: slider-vertical; /* WebKit */
+input[type=range][orient=vertical] {
+    writing-mode: bt-lr;
+    /* IE */
+    -webkit-appearance: slider-vertical;
+    /* WebKit */
     width: 8px;
     height: 175px;
     padding: 0 5px;
+}
+
+* {
+    box-sizing: content-box;
+    border-width: 0;
+    margin: auto;
+    padding: 0;
+}
+
+#battery {
+    margin-top: 40px;
+}
+div {
+    display: block;
+    float: inherit;
+    background: red;
+    width: 80px;
+    height: 80px;
+}
+
+main {
+    border: 1px solid black;
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
 }
